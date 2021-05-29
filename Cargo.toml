@@ -33,7 +33,7 @@ tls-vendored = ["native-tls/vendored"]
 clap = "2.33.3"
 ansi_term = "0.12.1"
 dirs-next = "2.0.0"
-git2 = { version = "0.13.19", default-features = false }
+git2 = { version = "0.13.20", default-features = false }
 toml = { version = "0.5.8", features = ["preserve_order"] }
 rust-ini = "0.17.0"
 serde_json = "1.0.64"
@@ -64,10 +64,10 @@ rand = "0.8.3"
 serde = { version = "1.0.126", features = ["derive"] }
 indexmap = { version ="1.6.2", features = ["serde"] }
 notify-rust = { version = "4.5.1", optional = true }
-semver = "0.11.0"
+semver = "1.0.0"
 which = "4.1.0"
 shadow-rs = "0.5.25"
-versions = "3.0.1"
+versions = "3.0.2"
 strsim = "0.10.0"
 
 process_control = { version = "3.0.1", features = ["crossbeam-channel"] }
